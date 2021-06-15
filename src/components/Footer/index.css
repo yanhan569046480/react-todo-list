@@ -1,0 +1,8 @@
+.footer-container{
+    text-align: left;
+}
+
+.footer-container button{
+    position: absolute;
+    right: 20px;
+}

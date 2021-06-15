@@ -1,0 +1,9 @@
+li{
+    list-style-type:none;
+    position: relative;
+}
+
+li button{
+    position: absolute;
+    right: 0px;
+}

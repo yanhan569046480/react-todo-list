@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {nanoid} from 'nanoid'
+import './index.css';
 
 export default class Header extends Component {
     onKeyUp = (event) => {
@@ -19,7 +20,7 @@ export default class Header extends Component {
 
     render() {
         return (
-            <div>
+            <div className="header-container">
                 <input onKeyUp={(event) => {
                     this.onKeyUp(event)
                 }} type="text" placeholder="请输入任务名称，按回车键确认添加"></input>

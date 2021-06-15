@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './index.css';
 
 export default class Footer extends Component {
     onChange = (event) => {
@@ -20,7 +21,7 @@ export default class Footer extends Component {
         const total = todos.length;
 
         return (
-            <div>
+            <div className="footer-container">
                 <label>
                     <input type="checkbox" checked={doneCount === total && total !== 0 ? true : false}
                            onChange={(event) => {
@@ -28,7 +29,7 @@ export default class Footer extends Component {
                            }}/>
                 </label>
                 <span>
-                    <span>已完成: {doneCount}</span>/<span>总数统计: {total}</span>
+                    <span>已完成:{doneCount}</span>/<span>总数:{total}</span>
                 </span>
                 <button onClick={() => {
                     this.onDeleteAllDone()

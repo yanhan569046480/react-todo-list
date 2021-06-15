@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './index.css';
 
 export default class Item extends Component {
 
@@ -39,7 +40,7 @@ export default class Item extends Component {
                            }} checked={done}></input>
                     <span>{name}</span>
                 </label>
-                <button style={{display: mouseEnter ? 'block' : 'none'}} onClick={() => {
+                <button style={{display: mouseEnter ? 'inline-block' : 'none'}} onClick={() => {
                     this.onDelete(id)
                 }}>删除
                 </button>

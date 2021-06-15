@@ -1,3 +1,12 @@
-.todo-container{
+.todo-container {
   text-align: center;
+}
+
+.todo-wrap {
+  width: 300px !important;
+  border: 2px solid #000 !important;
+  border-radius: 10px;
+  margin: 10px auto !important;
+  padding: 20px;
+  position: relative;
 }
