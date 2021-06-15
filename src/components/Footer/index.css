@@ -1,8 +1,9 @@
 .footer-container{
     text-align: left;
+    padding: 0 5px;
 }
 
 .footer-container button{
     position: absolute;
-    right: 20px;
+    right: 25px;
 }

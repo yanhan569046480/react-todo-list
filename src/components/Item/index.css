@@ -1,9 +1,12 @@
 li{
     list-style-type:none;
     position: relative;
+    background-color: rgb(225, 243, 216);
+    margin: 10px 0;
+    padding: 5px;
 }
 
 li button{
     position: absolute;
-    right: 0px;
+    right: 5px;
 }
