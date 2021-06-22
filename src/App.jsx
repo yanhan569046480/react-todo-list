@@ -60,7 +60,6 @@ export default class App extends Component {
 
         return (
             <div className="todo-container">
-                <h1>React-Todo-List</h1>
                 <div className="todo-wrap">
                     <Header onAddTodo={this.onAddTodo}/>
                     <List todos={todos} onDeleteTodo={this.onDeleteTodo}
